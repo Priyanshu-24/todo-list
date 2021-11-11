@@ -1,0 +1,149 @@
+body{
+  background-color: rgb(214 233 235);
+}
+
+header h1{
+    background-color: #089985;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2%;
+}
+
+main{
+    display: flex;
+}
+
+.content{
+    background-color: #5a5252;
+    height: 100vh;
+    width: 15%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.content div{
+    cursor: pointer;
+    margin: 40% 10%;
+    background-color: rgba(227, 67, 67,1);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.content-data{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+#add-todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    color: #4a4a4d;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+  }
+  
+  th,
+  td {
+    padding: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  thead {
+    background: #395870;
+    color: #fff;
+  }
+  
+  th:first-child {
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background: #f0f0f2;
+  }
+  
+  td {
+    border-bottom: 1px solid #cecfd5;
+    border-right: 1px solid #cecfd5;
+  }
+  
+  td:first-child {
+    border-left: 1px solid #cecfd5;
+  }
+
+  #add-project{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .content-data input{
+      width: 300px;
+      margin: 5px;
+      padding: 5px;
+      font-weight: bold;
+      outline: none;
+      border-radius: 12px;
+  }
+
+#add-note{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#project-display{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.project-card{
+  border: solid 1px black;
+  margin: 10px;
+  padding: 12px 10px;
+  border-radius: 12px;
+  background-color: #f3dee2;
+}
+
+strong{
+  font-weight: bold;
+}
+
+.dlt-btn-project{
+  background-color:#e72626;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.dlt-btn-project:hover{
+  background-color: #d30f0f;
+}
+
+h2{
+  font-size: 2rem;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.submit-btn{
+  border: none;
+  background-color: #089985;
+  color: #fff;
+}
+
+.submit-btn:hover{
+  background-color: #0a8676;
+}
